@@ -6,7 +6,15 @@ with `MongoDB` database.
 Development
 =====
 - 1.9.4 (it seems to be working with ubuntu 12.04 LTS)
+- ie: http://gkworks.com:8080/cats.json
 
+Ongoing Agenda for Sep 2015
+=====
+- Able to pass parameters in db.collecitons.find({},{})
+  Encrypted parameters or signed url support for increased security. (You don't want to see clear password in URL!)
+  This parameter is not desired: /cats?f={username:'user1', password:'password'}
+  Encrypting {username:'user1', password:'password'} with JWE (JSON Web Encryption) ???
+  
 Status
 ======
 This module is considered stable and it's compatible with the following nginx
