@@ -3,6 +3,9 @@ About
 `ngx_mongo` is an upstream module that allows `nginx` to communicate directly
 with `MongoDB` database.
 
+Development
+=====
+- 1.9.4 (it seems to be working with ubuntu 12.04 LTS)
 
 Status
 ======
